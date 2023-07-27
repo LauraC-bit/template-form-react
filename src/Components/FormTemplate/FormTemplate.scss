@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sucess,
+.error {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.sucess {
+  background: lightgreen;
+}
+
+.error {
+  background: lightcoral;
+}
